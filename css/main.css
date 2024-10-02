@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F2EAE2;
+    display: flex;
+    align-items: center;
+    
+}
+
+main{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    border-radius: 8px;
+    margin-top: 175px;
+    margin-bottom: 175px;
+    margin-left: 420px;
+    margin-right: 420px;
+    
+}
+
+img{
+    width: 50%;
+    height: 450px;
+    
+}
+
+.description{
+    width: 50%;
+    padding: 32px;
+}
+
+.perfume{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px ;
+}
+
+.perfume-name{
+    font-family: "Fraunces", serif;
+    size: 32px;
+}
+
+.perfume-texte{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #6C7289;
+    
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.current-price{
+    font-family: "Fraunces", serif;
+    font-size: 32px;
+    color: #3D8168;
+    
+}
+
+.sold-price{
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    color: #6C7289;
+    text-decoration: line-through ;
+
+}
+
+.cart{
+    background: #3D8168;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 236px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;  
+}
